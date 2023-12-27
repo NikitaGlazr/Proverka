@@ -38,4 +38,5 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
         db.insert(TABLE_NAME, null, values);
         db.close();
     }
+
 }
